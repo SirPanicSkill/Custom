@@ -101,4 +101,15 @@ $(".preloader").delay(1000).fadeOut("slow")
     $(".parallax-background-partners").parallax();
   }  
 
+  // Move imgs patches2
+  var winHeight = $(window).height(),
+      el =  $('#jar_left').offset().top;
+
+  $(window).scroll(function () {
+    if((el - $(window).scrollTop()) <= winHeight/2){
+      $('#jar_left').addClass('imgml');
+      $('#jar_right').addClass('imgmr');
+    }
+  });
+
 });
