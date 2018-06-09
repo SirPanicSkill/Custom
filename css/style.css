@@ -710,7 +710,7 @@ h1 span{
   position:relative;
   width:1260px;
   margin: 0 auto;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .row:after {
@@ -766,6 +766,78 @@ h1 span{
   text-transform:none;
   letter-spacing:1px;
   line-height:1.2;
+}
+
+/* PATCHES */
+#red, #blue, #yellow, #black {
+  position: relative;
+}
+
+#red {
+  height: 420px;
+}
+#blue {
+  height: 440px;
+}
+#yellow {
+  height: 385px;
+}
+#black {
+  height: 364px;
+}
+.upper_red {
+  right: -117px;
+  bottom: -131px;
+}
+.upper_red_pic:hover {
+  cursor: pointer;
+}
+.bottom_red_pic:hover {
+  cursor: pointer;
+}
+.upper_blue {
+  top: -132px;
+  left: 158px;
+}
+.upper_blue_pic:hover {
+  cursor: pointer;
+}
+.bottom_blue_pic:hover {
+  cursor: pointer;
+}
+.upper_yellow {
+  bottom: -130px;
+  right: 259px;
+}
+.upper_yellow_pic:hover {
+  cursor: pointer;
+}
+.bottom_yellow_pic:hover {
+  cursor: pointer;
+}
+.upper_yellow .yellow_pic {
+  margin-left: -142px;
+}
+.upper_black {
+  top: 18px;
+  right: 241px;
+}
+.upper_black_pic:hover {
+  cursor: pointer;
+}
+.bottom_black_pic:hover {
+  cursor: pointer;
+}
+.upper_black .black_pic {
+  margin-left: -209px;
+}
+
+div[class*='upper'] {
+  position: absolute;
+}
+
+div[class*='bottom'] {
+  display: none;
 }
 
 .p{
