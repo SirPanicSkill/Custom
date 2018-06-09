@@ -806,7 +806,18 @@ h1 span{
     margin: 1px 1px 1px 0;
 }
 
+.patches2 .columnjar1{
+  margin-top:340px;
+  width:50%;
+  float: left;
+}
 
+.patches2 .columnjar2{
+  margin-top:530px;
+  margin-left: 1%;
+  width:49%;
+  float: left;
+}
 
 
 
