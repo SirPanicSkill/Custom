@@ -56,16 +56,16 @@ h1{
   font-size:34px;
   color:white;
   font-weight:400;
-  text-transform:uppercase;
-  letter-spacing:6px;
+  text-transform:none;
+  letter-spacing:4px;
   line-height:1.2;
 }
 
 p{
   font-size:14px;
   color:white;
-  font-weight:300;
-  letter-spacing:1px;
+  font-weight:700;
+  letter-spacing:4px;
   margin-top:40px;
 }
 
@@ -125,7 +125,6 @@ h1 span{
   position:absolute;
   width:100%;
   height:100%;
-  background:rgba(51,51,51,0.5); /* Standard Off */
 }
 
 
@@ -164,7 +163,7 @@ h1 span{
   text-align:center;
   font-size: 30px;
   font-weight: bold;
-  letter-spacing:10px;
+  letter-spacing:7px;
 }
 
 .start-page .content .text .read-more{
@@ -380,8 +379,8 @@ h1 span{
   color:black;
   text-align:center;
   margin-top:120px;
-  letter-spacing:6px;
-  font-weight:bold;
+  letter-spacing:4px;
+  font-weight:900;
   text-transform:uppercase;
   line-height:1.2;
 
@@ -423,15 +422,15 @@ h1 span{
 
 .about-us h3{
   text-align:center;
-  margin-top:25px;
+  margin-top:50px;
+  margin-bottom:-10px;
   font-size:22px; 
   color:black;
   line-height:1.2;
   letter-spacing:3px;
   width:100%;
   position:relative;
-  font-weight:400;
-  font-weight: bold;
+  font-weight:700;
 }
 
 .about-us h4{
@@ -450,7 +449,7 @@ h1 span{
 .about-us li{
   text-align:left;
   margin-top:15px;
-  font-size:20px;
+  font-size:17px;
   color:black;
   line-height:1.2;
   letter-spacing:0;
@@ -474,9 +473,11 @@ h1 span{
 
 .about-us .column-one{
   margin-top:40px;
-  width:450px;
-  float:left;
   margin-bottom:70px;
+  margin-left: 0px;
+  margin-right: 10px;
+  width:490px;
+  float:left;
   height:350px;
 }
 
@@ -505,9 +506,11 @@ h1 span{
 
 .about-us .column-two{
   margin-top:40px;
-  width:450px;
-  float:left;
   margin-bottom:70px;
+  margin-left: 10px;
+  margin-right: 0px;
+  width:390px;
+  float:left;
   height:350px;
 }
 
@@ -593,8 +596,8 @@ h1 span{
   color:black;
   text-align:center;
   margin-top:120px;
-  letter-spacing:6px;
-  font-weight:bold;
+  letter-spacing:4px;
+  font-weight:900;
   text-transform:uppercase;
   line-height:1.2;
 }
@@ -613,7 +616,7 @@ h1 span{
   font-size:26px;
   color:black;
   line-height:1.2;
-  letter-spacing:6px;
+  letter-spacing:3px;
   width:100%;
   position:relative;
   font-weight:400;
@@ -623,13 +626,15 @@ h1 span{
 .patches li{
   text-align:left;
   margin-top:15px;
-  font-size:20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size:15px;
   color:black;
   line-height:1.2;
-  letter-spacing:2px;
+  letter-spacing:0px;
   width:100%;
   position:relative;
-  font-weight:400;
+  font-weight:700;
 }
 
 .patches .bold{
@@ -641,8 +646,7 @@ h1 span{
   letter-spacing:1px;
   width:100%;
   position:relative;
-  font-weight:400;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 /* Patches2 */
@@ -704,26 +708,108 @@ h1 span{
 
 .patches2 .content{
   position:relative;
-  width:auto;
+  width:1260px;
   margin: 0 auto;
   overflow: hidden;
 }
 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .patches2 .column1{
-  margin-top:435px;
-  margin-bottom:70px;
-  margin-right: auto;
-  width:auto;
+  margin-top:340px;
+  width:50%;
   float: left;
 }
 
 .patches2 .column2{
-  margin-top:430px;
-  margin-bottom:70px;
-  margin-left: -323px;
-  width:auto;
+  margin-top:530px;
+  margin-left: 1%;
+  width:49%;
   float: left;
 }
+
+.patches2 .content .column1 h1{
+  font-size:22px;
+  color:white;
+  font-weight:700;
+  text-transform:none;
+  letter-spacing:1px;
+  line-height:1.2;
+}
+
+.patches2 .content .column1 h2{
+  font-size:18px;
+  color:white;
+  font-weight:700;
+  text-transform:none;
+  letter-spacing:1px;
+  line-height:1.2;
+}
+
+.patches2 .content .column2 h1{
+  font-size:22px;
+  color:white;
+  font-weight:700;
+  text-transform:none;
+  letter-spacing:1px;
+  line-height:1.2;
+}
+
+.patches2 .content .column2 h2{
+  font-size:18px;
+  color:white;
+  font-weight:700;
+  text-transform:none;
+  letter-spacing:1px;
+  line-height:1.2;
+}
+
+.p{
+  font-size:17px;
+  color:rgb(0, 0, 0);
+  font-weight:700;
+  text-transform:none;
+  letter-spacing:0px;
+  line-height:1.2;
+}
+
+.text{
+  font-size:16px;
+  color:white;
+  font-weight:400;
+  text-transform:none;
+  letter-spacing:0px;
+  line-height:1.2;
+}
+
+.columnt1 {
+  float: left;
+  width: 25%;
+}
+.columnt2 {
+  float: left;
+  width: 75%;
+}
+.columntext {
+  float: left;
+  width: 48%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.pic {
+  float:left;
+    margin: 1px 1px 1px 0;
+}
+
+
+
+
+
 
 /* Portfolio */
 
@@ -896,7 +982,7 @@ h1 span{
   position:absolute;
   width:100%;
   height:400px;
-  background:rgba(79,79,79,0.6);
+ /* background:rgba(79,79,79,0.6);*/
 }
 
 .partners .content{
@@ -962,8 +1048,8 @@ h1 span{
   color:black;
   text-align:center;
   margin-top:20px;
-  letter-spacing:6px;
-  font-weight:bold;
+  letter-spacing:4px;
+  font-weight:900;
   text-transform:uppercase;
   line-height:1.2;
 
@@ -1059,8 +1145,8 @@ h1 span{
   color:black;
   text-align:center;
   margin-top:50px;
-  letter-spacing:6px;
-  font-weight:bold;
+  letter-spacing:4px;
+  font-weight:900;
   text-transform:uppercase;
   line-height:1.2;
 }
