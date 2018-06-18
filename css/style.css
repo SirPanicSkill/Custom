@@ -727,7 +727,7 @@ h1 span{
 
 .patches2 .column2{
   margin-top:530px;
-  margin-left: 1%;
+  /*margin-left: 1%;*/
   width:49%;
   float: left;
 }
@@ -785,9 +785,51 @@ h1 span{
 #black {
   height: 364px;
 }
+.eyes {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 17px;
+}
 .upper_red {
-  right: -117px;
+  right: -3px;
   bottom: -131px;
+}
+.u_red_button {
+  width: 105px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url(../img/readmore1.png);
+}
+.u_red_button:hover {
+  width: 105px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url(../img/readmore3.png);
+}
+.u_red_button:active {
+  width: 105px;
+  height: 32px;
+  background-image: url(../img/readmore2.png);
+}
+.b_red_button {
+  width: 105px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url(../img/close1.png);
+  z-index: 200;
+}
+.b_red_button:hover {
+  width: 105px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url(../img/close3.png);
+  z-index: 200;
+}
+.b_red_button:active {
+  width: 105px;
+  height: 32px;
+  background-image: url(../img/close2.png);
+  z-index: 200;
 }
 .upper_red_pic:hover {
   cursor: pointer;
@@ -795,9 +837,52 @@ h1 span{
 .bottom_red_pic:hover {
   cursor: pointer;
 }
+.upper_red .red_pic {
+  position: relative;
+  z-index: 200;
+}
 .upper_blue {
   top: -132px;
   left: 158px;
+}
+.upper_blue .blue_pic {
+  margin-top: 130px;
+  margin-left: 30px;
+  position: relative;
+}
+.u_blue_button {
+  width: 105px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url(../img/readmore1.png);
+}
+.u_blue_button:hover {
+  width: 105px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url(../img/readmore3.png);
+}
+.u_blue_button:active {
+  width: 105px;
+  height: 32px;
+  background-image: url(../img/readmore2.png);
+}
+.b_blue_button {
+  width: 105px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url(../img/close1.png);
+}
+.b_blue_button:hover {
+  width: 105px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url(../img/close3.png);
+}
+.b_blue_button:active {
+  width: 105px;
+  height: 32px;
+  background-image: url(../img/close2.png);
 }
 .upper_blue_pic:hover {
   cursor: pointer;
@@ -807,7 +892,41 @@ h1 span{
 }
 .upper_yellow {
   bottom: -130px;
-  right: 259px;
+  right: 230px;
+}
+.u_yellow_button {
+  width: 105px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url(../img/readmore1.png);
+}
+.u_yellow_button:hover {
+  width: 105px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url(../img/readmore3.png);
+}
+.u_yellow_button:active {
+  width: 105px;
+  height: 32px;
+  background-image: url(../img/readmore2.png);
+}
+.b_yellow_button {
+  width: 105px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url(../img/close1.png);
+}
+.b_yellow_button:hover {
+  width: 105px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url(../img/close3.png);
+}
+.b_yellow_button:active {
+  width: 105px;
+  height: 32px;
+  background-image: url(../img/close2.png);
 }
 .upper_yellow_pic:hover {
   cursor: pointer;
@@ -816,11 +935,48 @@ h1 span{
   cursor: pointer;
 }
 .upper_yellow .yellow_pic {
-  margin-left: -142px;
+  margin-left: -96px;
+  margin-bottom: 35px;
+  position: relative;
+  z-index: 100;
 }
 .upper_black {
   top: 18px;
-  right: 241px;
+  right: 221px;
+}
+.u_black_button {
+  width: 105px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url(../img/readmore1.png);
+}
+.u_black_button:hover {
+  width: 105px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url(../img/readmore3.png);
+}
+.u_black_button:active {
+  width: 105px;
+  height: 32px;
+  background-image: url(../img/readmore2.png);
+}
+.b_black_button {
+  width: 105px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url(../img/close1.png);
+}
+.b_black_button:hover {
+  width: 105px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url(../img/close3.png);
+}
+.b_black_button:active {
+  width: 105px;
+  height: 32px;
+  background-image: url(../img/close2.png);
 }
 .upper_black_pic:hover {
   cursor: pointer;
@@ -829,7 +985,10 @@ h1 span{
   cursor: pointer;
 }
 .upper_black .black_pic {
-  margin-left: -209px;
+  margin-left: -109px;
+  margin-top: 3px;
+  position: relative;
+  z-index: 300;
 }
 
 div[class*='upper'] {
@@ -1349,6 +1508,9 @@ input.submit{
 	-ms-transition: all 0.6s ease-in;
 	-o-transition: all 0.6s ease-in;
 	transition: all 0.6s ease-in;
+}
+input.submit:hover {
+  cursor: pointer;
 }
 
 /* Footer */
