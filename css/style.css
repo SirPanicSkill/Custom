@@ -87,7 +87,7 @@ h1 span{
 
 
 .container{
-  position:absolute;
+  /*position:absolute;*/
   width:100%;
   height:100%;
 }
@@ -156,7 +156,7 @@ h1 span{
 }
 
 .start-page .content .text .logo2{
-  width:900px;
+  /*width:900px;*/
   height:123px;
   margin:0 auto 50px;
   color: white;
@@ -232,7 +232,7 @@ h1 span{
   position:relative;
   width:100%;
   height:90px;
-  background:#ada074;
+  background:#417289;
   z-index:1000;
   display:none;
 }
@@ -791,8 +791,8 @@ h1 span{
   margin-left: 17px;
 }
 .upper_red {
-  right: -3px;
   bottom: -131px;
+  left: 193px;
 }
 .u_red_button {
   width: 105px;

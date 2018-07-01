@@ -8,7 +8,7 @@
 */
 
 
-/* iPad (portrait) */
+/* Mobile (portrait) */
 @media (min-width: 320px) and (max-width: 579px) {
 
 .menu{
@@ -76,34 +76,46 @@ h1 {
 }
 
 .contact, .contact .content, .contact .content .form{
-  width:300px;
+  width:auto;
+  -webkit-margin-start: 5px;
+  -webkit-margin-end: 5px;
+  align-items: center;
 }
 
 .contact .content .contact-text{
   padding-left:0px;
-  width:300px;
+  width: -webkit-fill-available;
   text-align:center;
   margin-top:60px;
+  position: relative;
 }
 
 input{
-  width:320px;
+  width:inherit;
+}
+
+input.submit{
+  float: none;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  position: relative;
 }
 
 textarea{
-  width:320px;
+  width:inherit;
 }
 
-.contact .content .contact-text {
+/*.contact .content .contact-text {
   width:275px;
-}
+}*/
 
 .contact .content .form .column, .contact .content .form .column-3{
-  width:320px;
+  width:579px;
 }
 
 .contact .content .form .column-2{
-  width:320px;
+  width:579px;
   padding-left:0;
 }
 
@@ -117,6 +129,36 @@ textarea{
 
 .footer{
   position:relative;
+}
+
+.ofapp {
+  width: auto;
+}
+
+.ofapp .content {
+  width: 579px;
+}
+
+.ofapp .text {
+  width: 300px;
+  padding-left: 25%;
+}
+
+.ofapp .text2 {
+  width: 300px;
+  padding-left: 25%;
+}
+
+.ofapp #ofapppic.img {
+  width: 300px;
+}
+
+.offapp2 {
+  width: auto;
+}
+
+.offapp2 .content {
+  width: 300px;
 }
 
 }

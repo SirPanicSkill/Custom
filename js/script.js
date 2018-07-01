@@ -111,12 +111,30 @@ $(".preloader").delay(1000).fadeOut("slow")
       $('.bottom_red').fadeOut(1600);
       $('.upper_red').animate({left: "194px"}, 1200);
     });
+    //button red
+    $('.u_red_button').click(function(){
+      $('.bottom_red').fadeIn(1600);
+      $('.upper_red').animate({left: "-1100px"}, 1200);
+    });
+    $('.b_red_button').click(function(){
+      $('.bottom_red').fadeOut(1600);
+      $('.upper_red').animate({left: "194px"}, 1200);
+    });
     //blue
     $('.upper_blue_pic').click(function(){
       $('.bottom_blue').fadeIn(1600).css("display","inline-block");
       $('.upper_blue').animate({left: "-1100px"}, 1200);
     });
     $('.bottom_blue_pic').click(function(){
+      $('.bottom_blue').fadeOut(1600);
+      $('.upper_blue').animate({left: "158px"}, 1200);
+    });
+    //button blue
+    $('.u_blue_button').click(function(){
+      $('.bottom_blue').fadeIn(1600).css("display","inline-block");
+      $('.upper_blue').animate({left: "-1100px"}, 1200);
+    });
+    $('.b_blue_button').click(function(){
       $('.bottom_blue').fadeOut(1600);
       $('.upper_blue').animate({left: "158px"}, 1200);
     });
@@ -127,7 +145,16 @@ $(".preloader").delay(1000).fadeOut("slow")
     });
     $('.bottom_yellow_pic').click(function(){
       $('.bottom_yellow').fadeOut(1600);
-      $('.upper_yellow').animate({right: "259px"}, 1200);
+      $('.upper_yellow').animate({right: "230px"}, 1200);
+    });
+    //button yellow
+    $('.u_yellow_button').click(function(){
+      $('.bottom_yellow').fadeIn(1600);
+      $('.upper_yellow').animate({right: "-1100px"}, 1200);
+    });
+    $('.b_yellow_button').click(function(){
+      $('.bottom_yellow').fadeOut(1600);
+      $('.upper_yellow').animate({right: "230px"}, 1200);
     });
     //black
     $('.upper_black_pic').click(function(){
@@ -136,7 +163,32 @@ $(".preloader").delay(1000).fadeOut("slow")
     });
     $('.bottom_black_pic').click(function(){
       $('.bottom_black').fadeOut(1600);
-      $('.upper_black').animate({right: "241px"}, 1200);
-    });    
+      $('.upper_black').animate({right: "223px"}, 1200);
+    });
+    //button black
+    $('.u_black_button').click(function(){
+      $('.bottom_black').fadeIn(1600).css("display","inline-block");
+      $('.upper_black').animate({right: "-1100px"}, 1200);
+    });
+    $('.b_black_button').click(function(){
+      $('.bottom_black').fadeOut(1600);
+      $('.upper_black').animate({right: "223px"}, 1200);
+    });
 
+});
+
+$(function() {
+  if($(window).width() <= 579) {
+    $("#ofapppic").each(function() {
+      $(this).attr("src", $(this).attr("src").replace("img/skin.png", "img/offapp.png"));
+    });
+  }
+});
+
+$(function() {
+  if($(window).width() > 580) {
+    $("#ofapppic").each(function() {
+      $(this).attr("src", $(this).attr("src").replace("img/offapp.png", "img/skin.png"));
+    });
+  }
 });
