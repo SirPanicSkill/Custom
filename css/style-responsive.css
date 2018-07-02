@@ -9,7 +9,7 @@
 
 
 /* Mobile (portrait) */
-@media (min-width: 320px) and (max-width: 579px) {
+@media (min-width: 320px) and (max-width: 767px) {
 
 .menu{
   display:none;
@@ -17,6 +17,26 @@
 
 .menu-media{
   display:block;
+}
+
+.imglogo{
+  width: 300px;
+  align-content: center;
+}
+
+.start-page .content .text .logo {
+  width: 300px;
+  margin: 0;
+}
+
+.start-page .content .text .logo2 {
+  height: 20%;
+  margin-bottom: 10%;
+}
+
+.start-page .content .arrow-down{
+  z-index: 100;
+  top: 96%;
 }
 
 .start-page .content {
@@ -33,11 +53,15 @@
 
 
 h1 {
-  font-size:36px;
+  font-size:34px;
 }
 
 .about-us h1 {
-  margin-top:0;
+  margin-top: 10%;
+}
+
+.about-us .column-one {
+  height: 10%;
 }
 
 .about-us .content{
@@ -50,13 +74,23 @@ h1 {
 
 .about-us .column-one, .about-us .column-two{
   width:300px;
-  margin-bottom:20px;
+  margin-top: 10%;
+  margin-bottom:10%;
+  height: fit-content;
 }
 
- .about-us .content .column-three{
+.about-us .content .column-three{
   width:300px;
   margin-bottom:70px;
- }
+}
+
+.patches .content {
+  width:300px;
+}
+
+.patches h1 {
+  margin-top: 10%;
+}
 
 .portfolio .portfolio-margin{
   width:300px;
@@ -136,7 +170,11 @@ textarea{
 }
 
 .ofapp .content {
-  width: 579px;
+  width: 300px;
+}
+
+.ofapp h1 {
+  margin-top: 10%;
 }
 
 .ofapp .text {
@@ -165,7 +203,7 @@ textarea{
 
 
 
-/* iPad (portrait) */
+/* iPad (portrait)
 @media (min-width: 580px) and (max-width: 767px) {
 
 .menu{
@@ -293,7 +331,7 @@ textarea{
 
 
 
-/* iPad (portrait) */
+ iPad (portrait)
 @media (min-width: 768px) and (max-width: 1023px) {
 
 
@@ -381,3 +419,4 @@ textarea{
 
 
 }
+*/

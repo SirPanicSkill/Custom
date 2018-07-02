@@ -178,7 +178,7 @@ $(".preloader").delay(1000).fadeOut("slow")
 });
 
 $(function() {
-  if($(window).width() <= 579) {
+  if($(window).width() <= 767) {
     $("#ofapppic").each(function() {
       $(this).attr("src", $(this).attr("src").replace("img/skin.png", "img/offapp.png"));
     });
@@ -186,9 +186,25 @@ $(function() {
 });
 
 $(function() {
-  if($(window).width() > 580) {
+  if($(window).width() > 768) {
     $("#ofapppic").each(function() {
       $(this).attr("src", $(this).attr("src").replace("img/offapp.png", "img/skin.png"));
+    });
+  }
+});
+
+$(function() {
+  if($(window).width() <= 767) {
+    $("#jarmain").each(function() {
+      $(this).attr("src", $(this).attr("src").replace("img/jar.gif", "img/jar_mobi.png"));
+    });
+  }
+});
+
+$(function() {
+  if($(window).width() > 768) {
+    $("#jarmain").each(function() {
+      $(this).attr("src", $(this).attr("src").replace("img/jar_mobi.png", "img/jar.gif"));
     });
   }
 });
