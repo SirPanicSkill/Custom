@@ -3,8 +3,7 @@
   $("html").niceScroll();
     
     
-  // Stick menu
-  $(".menu").sticky({topSpacing:0});
+  
 
 
 
@@ -203,6 +202,8 @@ $(function() {
 
 $(function() {
   if($(window).width() > 768) {
+    // Stick menu
+    $(".menu").sticky({topSpacing:0});
     $("#jarmain").each(function() {
       $(this).attr("src", $(this).attr("src").replace("img/jar_mobi.png", "img/jar.gif"));
     });

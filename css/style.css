@@ -993,6 +993,7 @@ h1 span{
 
 div[class*='upper'] {
   position: absolute;
+  display: none;
 }
 
 div[class*='bottom'] {
