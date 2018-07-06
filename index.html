@@ -21,7 +21,8 @@
 		
 		<link rel="shortcut icon" href="img/favicon.png"> 
 		
-		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/style-responsive.css" />				
 
@@ -382,8 +383,13 @@
         <div class="text">- Press tightly to the skin, tapping with finger tips.</div>
         <div class="text">- Remove the patches after 20-30 minutes and lightly tap the remaining essence into your skin.</div>
 
-        <img src="img/skin.png" class="img" id="ofapppic">
-
+        <img src="img/skin.png" class="img desktop" id="ofapppic">
+        <div class="ofapp_carusel mobile">
+          <div class="ofapp_carusel_img oci1"></div>
+          <div class="ofapp_carusel_img oci2"></div>
+          <div class="ofapp_carusel_img oci3"></div>
+          <div class="ofapp_carusel_img oci4"></div>
+        </div>
         <div class="text2">For very dry skin or skin with deep wrinkles, hold the patches up to 40 minutes.</div>
         <div class="text2">For intensive anti-puffiness effect store patches in the refrigerator.</div>
 
@@ -509,7 +515,8 @@
 	<script src="js/jquery.nicescroll.js"></script> <!-- jQuery NiceScroll -->
 	<script src="js/jquery.sticky.js"></script> <!-- jQuery Stick Menu -->
 	<script src="js/masonry.pkgd.min.js"></script> <!-- All script -->
-	<script src="js/imagesloaded.pkgd.min.js"></script> <!-- All script -->	
+  <script src="js/imagesloaded.pkgd.min.js"></script> <!-- All script -->	
+  <script src="js/slick.min.js"></script>
 
    <script>
      $(function(){

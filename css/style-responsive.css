@@ -11,6 +11,14 @@
 /* Mobile (portrait) */
 @media (min-width: 320px) and (max-width: 767px) {
 
+/*desktop/mobile*/
+.desktop {
+  display: none !important;
+}
+.mobile {
+  display: block !important;
+}
+
 .menu{
   display:none;
 }

@@ -88,7 +88,15 @@ else
 
 $(window).load(function(){
 
-$(".preloader").delay(1000).fadeOut("slow")
+$(".preloader").delay(1000).fadeOut("slow");
+
+//carusel
+$('.ofapp_carusel').slick({
+  adaptiveHeight: true,
+  arrows: false,
+  autoplay: true,
+  respondTo: 'slider'
+});
 
   // Parallax
   if ($('.parallax-background').length) {
