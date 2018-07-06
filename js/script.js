@@ -195,7 +195,7 @@ $(function() {
 $(function() {
   if($(window).width() <= 767) {
     $("#jarmain").each(function() {
-      $(this).attr("src", $(this).attr("src").replace("img/jar.gif", "img/jar_mobi.png"));
+      $(this).attr("src", $(this).attr("src").replace("img/jar.gif", "img/jar_mobi.gif"));
     });
   }
 });
@@ -205,7 +205,7 @@ $(function() {
     // Stick menu
     $(".menu").sticky({topSpacing:0});
     $("#jarmain").each(function() {
-      $(this).attr("src", $(this).attr("src").replace("img/jar_mobi.png", "img/jar.gif"));
+      $(this).attr("src", $(this).attr("src").replace("img/jar_mobi.gif", "img/jar.gif"));
     });
   }
 });
