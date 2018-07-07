@@ -808,6 +808,12 @@ h1 span{
   bottom: -131px;
   left: 193px;
 }
+.upper_red.mobile {
+  bottom: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
 .u_red_button {
   width: 105px;
   height: 32px;
@@ -851,18 +857,34 @@ h1 span{
 .bottom_red_pic:hover {
   cursor: pointer;
 }
-.upper_red .red_pic {
+.upper_red.mobile .red_pic {
+  display: inline-block;
+  width: 100%;
+  height: 350px;
   position: relative;
   z-index: 200;
+  background-image: url(../img/jars/jar_red_m.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
 }
 .upper_blue {
   top: -132px;
   left: 158px;
 }
-.upper_blue .blue_pic {
+.upper_blue.mobile {
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.upper_blue.desktop .blue_pic {
   margin-top: 130px;
   margin-left: 30px;
   position: relative;
+}
+.upper_blue.mobile .blue_pic {
+  margin-top: 0;
+  margin-left: 0;
 }
 .u_blue_button {
   width: 105px;
@@ -904,9 +926,25 @@ h1 span{
 .bottom_blue_pic:hover {
   cursor: pointer;
 }
-.upper_yellow {
+.upper_blue.mobile .blue_pic {
+  display: inline-block;
+  width: 100%;
+  height: 350px;
+  position: relative;
+  z-index: 200;
+  background-image: url(../img/jars/jar_blue_m.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+.upper_yellow.desktop {
   bottom: -130px;
   right: 230px;
+}
+.upper_yellow.mobile {
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 .u_yellow_button {
   width: 105px;
@@ -954,9 +992,31 @@ h1 span{
   position: relative;
   z-index: 100;
 }
-.upper_black {
+.upper_yellow.mobile .yellow_pic {
+  margin-left: 0;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 100;
+}
+.upper_yellow.mobile .yellow_pic {
+  display: inline-block;
+  width: 100%;
+  height: 315px;
+  position: relative;
+  z-index: 200;
+  background-image: url(../img/jars/jar_yellow_m.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+.upper_black.desktop {
   top: 18px;
   right: 221px;
+}
+.upper_black.mobile {
+  top: 0;
+  left: 0;
+  width: 100%
 }
 .u_black_button {
   width: 105px;
@@ -998,17 +1058,34 @@ h1 span{
 .bottom_black_pic:hover {
   cursor: pointer;
 }
-.upper_black .black_pic {
+.upper_black.desktop .black_pic {
   margin-left: -109px;
   margin-top: 3px;
   position: relative;
   z-index: 300;
 }
+.upper_black.mobile .black_pic {
+  margin-left: 0;
+  margin-top: 0;
+  position: relative;
+  z-index: 300;
+}
+.upper_black.mobile .black_pic {
+  display: inline-block;
+  width: 100%;
+  height: 347px;
+  position: relative;
+  z-index: 200;
+  background-image: url(../img/jars/jar_black_m.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
 
 div[class*='upper'] {
   position: absolute;
-  display: none;
 }
+
 
 div[class*='bottom'] {
   display: none;
@@ -1392,6 +1469,10 @@ div[class*='bottom'] {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+  .offapp2 .column > .row {
+    height: 100px;
+  }
 
 /* Clear floats after the columns */
 .row:after {
