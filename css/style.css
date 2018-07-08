@@ -858,7 +858,7 @@ h1 span{
   cursor: pointer;
 }
 .upper_red.mobile .red_pic {
-  display: inline-block;
+  display: block;
   width: 100%;
   height: 350px;
   position: relative;
@@ -867,6 +867,8 @@ h1 span{
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: cover;
+  margin: 0 auto;
+  width: 410px;
 }
 .upper_blue {
   top: -132px;
@@ -927,7 +929,7 @@ h1 span{
   cursor: pointer;
 }
 .upper_blue.mobile .blue_pic {
-  display: inline-block;
+  display: block;
   width: 100%;
   height: 350px;
   position: relative;
@@ -936,6 +938,8 @@ h1 span{
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: cover;
+  margin: 0 auto;
+  width: 410px;
 }
 .upper_yellow.desktop {
   bottom: -130px;
@@ -999,7 +1003,7 @@ h1 span{
   z-index: 100;
 }
 .upper_yellow.mobile .yellow_pic {
-  display: inline-block;
+  display: block;
   width: 100%;
   height: 315px;
   position: relative;
@@ -1008,6 +1012,8 @@ h1 span{
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: cover;
+  margin: 0 auto;
+  width: 410px;
 }
 .upper_black.desktop {
   top: 18px;
@@ -1071,7 +1077,7 @@ h1 span{
   z-index: 300;
 }
 .upper_black.mobile .black_pic {
-  display: inline-block;
+  display: block;
   width: 100%;
   height: 347px;
   position: relative;
@@ -1080,15 +1086,23 @@ h1 span{
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: cover;
+  margin: 0 auto;
+  width: 410px;
 }
 
 div[class*='upper'] {
   position: absolute;
 }
 
-
 div[class*='bottom'] {
   display: none;
+}
+
+.mobile .jar_text {
+  position: relative;
+  display: block;
+  width: 410px;
+  margin: 0 auto;
 }
 
 .p{
