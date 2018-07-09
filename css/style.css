@@ -872,6 +872,7 @@ h1 span{
   background-size: cover;
   margin: 0 auto;
   width: 100vw;
+  max-width: 410px;
 }
 .upper_blue {
   top: -132px;
@@ -943,6 +944,7 @@ h1 span{
   background-size: cover;
   margin: 0 auto;
   width: 100vw;
+  max-width: 410px;
 }
 .upper_yellow.desktop {
   bottom: -130px;
@@ -1017,6 +1019,7 @@ h1 span{
   background-size: cover;
   margin: 0 auto;
   width: 100vw;
+  max-width: 410px;
 }
 .upper_black.desktop {
   top: 18px;
@@ -1091,6 +1094,7 @@ h1 span{
   background-size: cover;
   margin: 0 auto;
   width: 100vw;
+  max-width: 410px;
 }
 
 div[class*='upper'] {
