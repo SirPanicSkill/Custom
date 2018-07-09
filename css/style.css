@@ -871,7 +871,7 @@ h1 span{
   background-position: 0 0;
   background-size: cover;
   margin: 0 auto;
-  width: 410px;
+  width: 100vw;
 }
 .upper_blue {
   top: -132px;
@@ -942,7 +942,7 @@ h1 span{
   background-position: 0 0;
   background-size: cover;
   margin: 0 auto;
-  width: 410px;
+  width: 100vw;
 }
 .upper_yellow.desktop {
   bottom: -130px;
@@ -1016,7 +1016,7 @@ h1 span{
   background-position: 0 0;
   background-size: cover;
   margin: 0 auto;
-  width: 410px;
+  width: 100vw;
 }
 .upper_black.desktop {
   top: 18px;
@@ -1090,7 +1090,7 @@ h1 span{
   background-position: 0 0;
   background-size: cover;
   margin: 0 auto;
-  width: 410px;
+  width: 100vw;
 }
 
 div[class*='upper'] {
@@ -1104,7 +1104,7 @@ div[class*='bottom'] {
 .mobile .jar_text {
   position: relative;
   display: block;
-  width: 410px;
+  width: 100vw;
   margin: 0 auto;
 }
 
@@ -1142,8 +1142,14 @@ div[class*='bottom'] {
 }
 
 .pic {
-  float:left;
-    margin: 1px 1px 1px 0;
+  float: left;
+  margin: 1px 1px 1px 0;
+  
+}
+.mobile .pic {
+  width: 60vw;
+  display: inline-block;
+  max-width: 220px;
 }
 
 .patches2 .columnjar1{
