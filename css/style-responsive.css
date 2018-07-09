@@ -108,7 +108,8 @@ h1 {
 .partners {
   /*background-image: url(../img/background/partners_m.jpg);*/
   background: url(../img/background/partners_m.jpg) bottom center fixed no-repeat;
-  height: 300px;
+  background-size: cover;
+  background-attachment: scroll;
 }  
 
 .patches .content {
