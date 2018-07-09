@@ -100,12 +100,12 @@ $('.ofapp_carusel').slick({
 
   // Parallax
   if ($('.parallax-background').length) {
-    $(".parallax-background").parallax();
+    $(".parallax-background").parallax("50%", 0.4, true);
   }
   
   // Parallax
   if ($('.parallax-background-partners').length) {
-    $(".parallax-background-partners").parallax();
+    $(".parallax-background-partners").parallax("50%", 0.4, true);
   }  
 
   // Move imgs patches2
