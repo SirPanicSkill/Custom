@@ -34,6 +34,7 @@
 
 .start-page {
   background-image: url(../img/background/start-page_m.jpg);
+  background-attachment: scroll;
 }  
 
 .start-page .content .text .logo {
